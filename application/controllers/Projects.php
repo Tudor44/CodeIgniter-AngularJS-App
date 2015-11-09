@@ -4,6 +4,7 @@ class Projects extends CI_Controller {
 
 	public function index()
 	{
+                $this->load->helper('common');
 		$this->load->view('layout');
 	}
 
