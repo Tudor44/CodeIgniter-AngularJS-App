@@ -4,6 +4,7 @@ class Projects extends CI_Controller {
 
 	public function index()
 	{
+                $this->load->helper('common');
 		$this->load->view('layout');
 	}
 
@@ -19,5 +20,5 @@ class Projects extends CI_Controller {
 
 }
 
-/* End of file projects.php */
-/* Location: ./application/controllers/projects.php */
+/* End of file Projects.php */
+/* Location: ./application/controllers/Projects.php */
